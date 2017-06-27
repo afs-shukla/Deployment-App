@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/restaurant.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="container">
+       <nav class="navbar navbar-inverse container-fluid navbar-fixed-top">
+        <div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" 
+
+                data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" 
+
+                aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+                        <div class="navbar-brand">
+             
+                   
+                        <img src="images/boalogo.png" alt="Kosher certification">
+                        <!--<span>Kosher Certified</span>-->
+                     
+                    </div>
+              <!--<a class="navbar-brand" 
+              <img src="images/boalogo.jpg" alt="Deployment Manager"> 
+              <span>Deployment Manager</span> </a>-->
+            
+                 </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="Home.html">
+                    <span class="glyphicon glyphicon-home"></span> 
+                    Home</a></li>
+                    <li><a href="#">
+                    <span class="glyphicon glyphicon-king"></span>  
+                    About</a></li>
+ 
+                </ul>
+           
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon 
+                    glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="#"><span class="glyphicon 
+                    glyphicon-user"></span> Register</a></li>
+ 
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    </header>
+    
+
+        <ui-view>
+             <div class="text-center initial-loading">
+        <h2>Loading Site...</h2>
+        </div>
+      </ui-view>
+
+     <footer class="navbar-inverse navbar-fixed-bottom ">
+      <div class="container">
+        <!--<div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>
+            Sun-Thurs: 11:15am - 10:00pm<br>
+            Fri: 11:15am - 2:30pm<br>
+            Saturday Closed
+            <hr class="visible-xs">
+          </section>
+          <section id="address" class="col-sm-4">
+            <span>Address:</span><br>
+            7105 Reisterstown Road<br>
+            Baltimore, MD 21215
+            <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+            <hr class="visible-xs">
+          </section>
+          <section id="testimonials" class="col-sm-4">
+            <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+            <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+          </section>
+        </div>-->
+
+      
+        <div class="text-center">
+          &copy; Copyright David Chu's China Bistro 2016 |
+          <a ui-sref="admin.auth">Admin</a></div>
+      </div>
+    </footer>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>
