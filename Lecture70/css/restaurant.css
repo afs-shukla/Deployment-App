@@ -3,7 +3,8 @@ body {
   color: #fff;
   background-color: #d8122d;
   font-family: 'Oxygen', sans-serif;
-  background:  url('../images/background.png')t;
+  background:  url('../images/background1.png');
+  margin-left:10px;
 }
 
 .initial-loading {
@@ -15,7 +16,7 @@ body {
     height:100;
 }
 #header-nav {
-  background-color: #f6b319;
+  /*background-color: #f6b319;*/
   border-radius: 0;
   border: 0;
   
